@@ -9,9 +9,9 @@ namespace Blazor.Pages
     {
         [Parameter]
         public string id { get; set;}
+        public Department Department { get; set; } = new Department();
         [Inject]
         public IDepartmentService DepartmentService { get; set; }
-        public Department Department { get; set; } = new Department();
         protected override async Task OnInitializedAsync()
         {
             id = id ?? "1";

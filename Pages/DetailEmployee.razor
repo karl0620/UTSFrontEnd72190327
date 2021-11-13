@@ -1,9 +1,22 @@
 @page "/employeedetail/{id}"
 
-<h3>Employee Detail</h3>
-<p>Employee Id: @Employee.EmployeeId</p>
-<p>Employee Name: @Employee.FirstName @Employee.LastName</p>
-<p>Employee Email: @Employee.Email</p>
-<p>Employee Birth Date: @Employee.DateOfBirth</p>
-<p>Employee Department: @Employee.DepartmentName</p>
-
+@if(Employee == null){
+    <div class="spinner"></div>
+}
+else{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <h1>@Employee.FirstName @Employee.LastName</h1>
+        </div>
+        <div class="card-body text-center">
+            <img class="card-img-top" src="@Employee.PhotoPath"/>
+            <h4>Employee id    : @Employee.EmployeeId</h4>
+            <h4>Email          : @Employee.Email</h4>
+        </div>
+        <div class="card-footer text-center">
+            <a href="/employeepage" class="btn btn-primary">Back</a>
+            <a href="#" class="btn btn-primary">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+}

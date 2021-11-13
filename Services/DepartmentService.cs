@@ -23,7 +23,7 @@ namespace Blazor.Services
 
         public async Task<Department> GetById(int id)
         {
-            var results = await _httpClient.GetFromJsonAsync<Department>("api/Departments/{id}");
+            var results = await _httpClient.GetFromJsonAsync<Department>($"api/Departments/{id}");
             return results;
         }
     }

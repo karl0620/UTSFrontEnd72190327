@@ -9,9 +9,9 @@ namespace Blazor.Pages
     {
         [Parameter]
         public string id { get; set;}
+        public Employee Employee { get; set; } = new Employee();
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
-        public Employee Employee { get; set; } = new Employee();
         protected override async Task OnInitializedAsync()
         {
             id = id ?? "1";

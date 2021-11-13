@@ -21,7 +21,7 @@ namespace Blazor.Services
 
         public async Task<Employee> GetById(int id)
         {
-            var resultsEmp = await _httpClient.GetFromJsonAsync<Employee>("api/Employees/{id}");
+            var resultsEmp = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
             return resultsEmp;
         }
     }
