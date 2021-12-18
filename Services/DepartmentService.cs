@@ -4,11 +4,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using Blazor72190280.Models;
+using Blazor.Models;
 
-namespace Blazor72190280.Services
+namespace Blazor.Services
 {
-   public class DepartmentService : IDepartmentService
+    public class DepartmentService : IDepartmentService
     {
         private HttpClient _httpClient;
         public DepartmentService(HttpClient httpClient)

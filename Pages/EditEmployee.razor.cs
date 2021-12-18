@@ -2,18 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Blazor72190280.Models;
-using Blazor72190280.Services;
+using Blazor.Models;
+using Blazor.Services;
 using Microsoft.AspNetCore.Components;
 
-namespace Blazor72190280.Pages
+namespace Blazor.Pages
 {
     public partial class EditEmployee
     {
         public Employee Employee { get; set; } = new Employee();
 
         [Inject]
-        public IEmployeeService EmployeeService { get; set; }
+        public IEmployeeService Employeeservice { get; set; }
         [Inject]
         public IDepartmentService DepartmentService { get; set; }
         public List<Department> Departments { get; set; } = new List<Department>();
@@ -25,13 +25,12 @@ namespace Blazor72190280.Pages
 
         protected async override Task OnInitializedAsync()
         {
-            Employee = await EmployeeService.GetById(int.Parse(Id));
+            Employee = await Employeeservice.GetById(int.Parse(Id));
             Departments = (await DepartmentService.GetAll()).ToList();
         }
 
         protected async Task HandleValidSubmit(){
-            Employee.PhotoPath = "images/Profile-picture.jpg";
-            Employee results = await EmployeeService.Update(int.Parse(Id), Employee);
+            Employee results = await Employeeservice.Update(int.Parse(Id), Employee);
             NavigationManager.NavigateTo("employeepage");
         }
     }

@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace Blazor72190280.Pages
+namespace Blazor.Pages
 {
     #line hidden
     using System;
@@ -13,71 +13,71 @@ namespace Blazor72190280.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 1 "D:\UTSFrontEnd72190327\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 2 "D:\UTSFrontEnd72190327\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 3 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 4 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 5 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 6 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 7 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
+#line 8 "D:\UTSFrontEnd72190327\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
-using Blazor72190280;
+#line 9 "D:\UTSFrontEnd72190327\_Imports.razor"
+using Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "c:\Pemrograman Front-End (Semester 5)\Blazor72190280\_Imports.razor"
-using Blazor72190280.Shared;
+#line 10 "D:\UTSFrontEnd72190327\_Imports.razor"
+using Blazor.Shared;
 
 #line default
 #line hidden

@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Blazor72190280.Models;
-using Blazor72190280.Services;
+using Blazor.Models;
+using Blazor.Services;
 using Microsoft.AspNetCore.Components;
 
-namespace Blazor72190280.Pages
+namespace Blazor.Pages
 {
     public partial class DetailDepartment
     {

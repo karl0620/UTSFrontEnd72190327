@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\Documents\\Blazor\\Blazor.csproj": {}
+    "D:\\UTSFrontEnd72190327\\Blazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Documents\\Blazor\\Blazor.csproj": {
+    "D:\\UTSFrontEnd72190327\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Documents\\Blazor\\Blazor.csproj",
+        "projectUniqueName": "D:\\UTSFrontEnd72190327\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "C:\\Users\\henri\\Documents\\Blazor\\Blazor.csproj",
+        "projectPath": "D:\\UTSFrontEnd72190327\\Blazor.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Documents\\Blazor\\obj\\",
+        "outputPath": "D:\\UTSFrontEnd72190327\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.10, 5.0.10]"
+              "version": "[5.0.13, 5.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
