@@ -1920,3 +1920,5 @@ D:\UTSFrontEnd72190327\obj\Debug\net5.0\Blazor.csproj.CopyComplete
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Blazor.dll
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\ref\Blazor.dll
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Blazor.pdb
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\RazorDeclaration\Pages\AddEmployee.razor.g.cs
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\RazorDeclaration\Pages\ValidationMessage.razor.g.cs

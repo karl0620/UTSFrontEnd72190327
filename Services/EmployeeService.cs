@@ -36,5 +36,17 @@ namespace Blazor.Services
                 throw new Exception("Gagal Update");
             }
         }
+        
+         public async Task<Employee> Add(Employee obj){
+            var response = await _httpClient.PostAsJsonAsync($"api?Employees",obj);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(
+                    await response.Content.ReadAsStreamAsync()
+                );
+            }
+            else{
+                throw new Exception("Gagal Tambah Data Employee");
+            }
+        }
     }
 }
