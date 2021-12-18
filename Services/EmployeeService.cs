@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Text.Json;
 using System.Threading.Tasks;
-using Blazor.Models;
+using Blazor72190280.Models;
+using System.Text.Json;
 
-namespace Blazor.Services
+namespace Blazor72190280.Services
 {
     public class EmployeeService : IEmployeeService
     {
@@ -34,6 +34,18 @@ namespace Blazor.Services
                 return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
             }else{
                 throw new Exception("Gagal Update");
+            }
+        }
+
+        public async Task<Employee> Add(Employee obj){
+            var response = await _httpClient.PostAsJsonAsync($"api?Employees",obj);
+            if(response.IsSuccessStatusCode){
+                return await JsonSerializer.DeserializeAsync<Employee>(
+                    await response.Content.ReadAsStreamAsync()
+                );
+            }
+            else{
+                throw new Exception("Gagal Tambah Data Employee");
             }
         }
     }

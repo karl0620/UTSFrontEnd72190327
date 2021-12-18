@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Blazor.Services;
+using Blazor72190280.Services;
 
-namespace Blazor
+namespace Blazor72190280
 {
     public class Program
     {
@@ -19,6 +19,7 @@ namespace Blazor
             builder.RootComponents.Add<App>("#app");
 
             var uri = new Uri("https://blazorbackend.azurewebsites.net");
+
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = uri});
             builder.Services.AddScoped<IDepartmentService,DepartmentService>();
             builder.Services.AddScoped<IEmployeeService,EmployeeService>();

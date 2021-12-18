@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Blazor.Models
+namespace Blazor72190280.Models
 {
     public class Department
     {
