@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\UTSFrontEnd72190327\\Blazor.csproj": {}
+    "D:\\UTSFrontEnd72190327\\Blazor.csproj": {}
   },
   "projects": {
-    "d:\\UTSFrontEnd72190327\\Blazor.csproj": {
+    "D:\\UTSFrontEnd72190327\\Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\UTSFrontEnd72190327\\Blazor.csproj",
+        "projectUniqueName": "D:\\UTSFrontEnd72190327\\Blazor.csproj",
         "projectName": "Blazor",
-        "projectPath": "d:\\UTSFrontEnd72190327\\Blazor.csproj",
+        "projectPath": "D:\\UTSFrontEnd72190327\\Blazor.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "d:\\UTSFrontEnd72190327\\obj\\",
+        "outputPath": "D:\\UTSFrontEnd72190327\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -40,12 +40,12 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",

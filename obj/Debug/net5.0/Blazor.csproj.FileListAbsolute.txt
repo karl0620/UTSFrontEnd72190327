@@ -1714,12 +1714,6 @@ D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\wNFJuWj3.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\GC188PcM.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\2uDDTiSK.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\mHolx1cj.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\8X+F0mZK.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\bA0Av7ci.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\LLG78qj+.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\HbuQu13w.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\823abTmy.gz
@@ -1734,8 +1728,6 @@ D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\gRyGuPV+.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\eVx5zNzH.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\fUIzkBxw.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\wcA6btMD.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\x6K2409e.gz
-D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\UwMzV6aj.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\F1gf8cfm.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\pApcjOos.gz
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\KqrnZwuD.gz
@@ -1922,3 +1914,13 @@ D:\UTSFrontEnd72190327\obj\Debug\net5.0\ref\Blazor.dll
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\Blazor.pdb
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\RazorDeclaration\Pages\AddEmployee.razor.g.cs
 D:\UTSFrontEnd72190327\obj\Debug\net5.0\RazorDeclaration\Pages\ValidationMessage.razor.g.cs
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\Pages\AddEmployee.razor.g.cs
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\Razor\Pages\ValidationMessage.razor.g.cs
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\I+gwLNxO.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\3WwKrFAa.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\a1FmnXkn.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\7mq6hkbO.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\Y+pUx8H8.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\ffAsFnWD.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\+zCN9GjU.gz
+D:\UTSFrontEnd72190327\obj\Debug\net5.0\build-gz\VggARnrK.gz

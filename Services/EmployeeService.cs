@@ -37,8 +37,8 @@ namespace Blazor.Services
             }
         }
         
-         public async Task<Employee> Add(Employee obj){
-            var response = await _httpClient.PostAsJsonAsync($"api?Employees",obj);
+         public async Task<Employee> Add(Employee employee){
+            var response = await _httpClient.PostAsJsonAsync($"api?Employees",employee);
             if(response.IsSuccessStatusCode){
                 return await JsonSerializer.DeserializeAsync<Employee>(
                     await response.Content.ReadAsStreamAsync()
